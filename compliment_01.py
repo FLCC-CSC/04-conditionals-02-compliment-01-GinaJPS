@@ -1,8 +1,9 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Regina Swartout
+# DATE: 2/18/26
+# BRIEF DESCRIPTION:  A program where the user is prompted whether they want a compliment or not. If they choose "yes", 
+# then a compliment is given. Either way, the user is thanked for participating.
 
 
 
@@ -15,7 +16,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+choice = input("Would you like a compliment? ")
 
+if choice == "yes":
+    print("You have wonderful eyes.")
+
+print("Thank you for playing.")
 
 
 
@@ -66,11 +72,15 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
+I rate this lab a 1, but I have past experience with Python.  With this being someone's
+first lab writing a program with an if condition, they might forget the double == or
+the : at the end of the conditional statement.  
 
 
 
 
-2. What was the hardest part of this lab?
+2. What was the hardest part of this lab?  
+The hardest part for me was coming up with a variable name for the user's input.
 
 
 
